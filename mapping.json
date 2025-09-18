@@ -1,1 +1,1 @@
-"{\"fieldMap\":{\"PerPersonal\":[{\"rowId\":\"1\",\"src\":\"personal/preferredNames[0]/middleName\",\"dest\":\"middleName\"}]},\"companyID\":\"3rd_Party_Green_Planet_Acquisition\"}"
+"{\"fieldMap\":{\"PerEmergencyContacts\":[{\"rowId\":\"1\",\"src\":\"personalCommunication/phones[0]/formattedPhoneNumber\",\"dest\":\"phone\"}]},\"companyID\":\"3rd_Party_Green_Planet_Acquisition\"}"
