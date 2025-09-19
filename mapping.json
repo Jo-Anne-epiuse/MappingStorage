@@ -1,1 +1,1 @@
-"{\"fieldMap\":{\"PerEmergencyContacts\":[{\"rowId\":\"1\",\"src\":\"personalCommunication/phones[0]/formattedPhoneNumber\",\"dest\":\"phone\"}]},\"companyID\":\"3rd_Party_Green_Planet_Acquisition\"}"
+"{\"fieldMap\":{\"Background_Memberships\":[{\"rowId\":\"1\",\"src\":\"personalIdentification/otherIdentifiers[0]/organization\",\"dest\":\"organization\"}]},\"companyID\":\"3rd_Party_Green_Planet_Acquisition\"}"
