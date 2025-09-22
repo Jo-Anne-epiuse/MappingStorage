@@ -1,1 +1,17 @@
-"{\"fieldMap\":{\"Background_Memberships\":[{\"rowId\":\"1\",\"src\":\"personalIdentification/otherIdentifiers[0]/organization\",\"dest\":\"organization\"}]},\"companyID\":\"3rd_Party_Green_Planet_Acquisition\"}"
+{
+  "fieldMap": {
+    "PerPerson": [
+      {
+        "rowId": "1",
+        "src": "personal/dateOfBirth",
+        "dest": "dateOfBirth"
+      },
+      {
+        "rowId": "2",
+        "src": "personal/countryOfBirth",
+        "dest": "countryOfBirth"
+      }
+    ]
+  },
+  "companyID": "3rd_Party_Green_Planet_Acquisition"
+}
