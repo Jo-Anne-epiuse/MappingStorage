@@ -1,24 +1,5 @@
 {
   "fieldMap": {
-    "dateOfBirth": [
-      {
-        "rowId": "1",
-        "src": "personal/dateOfBirth",
-        "dest": "dateOfBirth",
-        "conditionalMapping": [
-          {
-            "referenceFieldId": "2",
-            "rules": [
-              {
-                "conditionalValue": "AUS",
-                "include": "true",
-                "valueMappingId": ""
-              }
-            ]
-          }
-        ]
-      }
-    ],
     "countryOfBirth": [
       {
         "rowId": "2",
