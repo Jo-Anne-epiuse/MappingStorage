@@ -1,12 +1,1 @@
-{
-  "fieldMap": {
-    "PerPersonal": [
-      {
-        "rowId": "1",
-        "src": "personal/preferredNames[0]/lastName",
-        "dest": "lastName"
-      }
-    ]
-  },
-  "companyID": "3rd_Party_Green_Planet_Acquisition"
-}
+"{\"fieldMap\":{\"PerEmergencyContacts\":[{\"rowId\":\"1\",\"src\":\"personalCommunication/addresses[0]/addressLine8\",\"dest\":\"addressAddress10\"}]},\"companyID\":\"3rd_Party_Green_Planet_Acquisition\"}"
