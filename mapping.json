@@ -1,30 +1,12 @@
 {
   "fieldMap": {
-    "countryOfBirth": [
+    "PerEmail": [
       {
-        "rowId": "2",
-        "src": "personal/countryOfBirth",
-        "dest": "countryOfBirth",
-        "valueMappingId": "1"
-      }
-    ],
-    "PerPersonal": [
-      {
-        "rowId": "3",
-        "src": "relatedPersons[0]/legalNames[0]/lastName",
-        "dest": "lastName"
+        "rowId": "1",
+        "src": "personalCommunication/emails[0]/emailAddress",
+        "dest": "emailAddress"
       }
     ]
   },
-  "companyID": "3rd_Party_Green_Planet_Acquisition",
-  "valueMaps": {
-    "1": {
-      "name": "countryMaps",
-      "mapping": {
-        "a": "A",
-        "b": "B",
-        "c": "C"
-      }
-    }
-  }
+  "companyID": "3rd_Party_Green_Planet_Acquisition"
 }
