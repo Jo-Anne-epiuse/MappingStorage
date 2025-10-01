@@ -1,1 +1,42 @@
-"{\"fieldMap\":{\"PerEmergencyContacts\":[{\"rowId\":\"1\",\"src\":\"personalCommunication/addresses[0]/addressLine8\",\"dest\":\"addressAddress10\"}]},\"companyID\":\"3rd_Party_Green_Planet_Acquisition\"}"
+{
+  "fieldMap": {
+    "dateOfBirth": [
+      {
+        "rowId": "1",
+        "src": "personal/dateOfBirth",
+        "dest": "dateOfBirth",
+        "conditionalMapping": [
+          {
+            "referenceFieldId": "2",
+            "rules": [
+              {
+                "conditionalValue": "AUS",
+                "include": "true",
+                "valueMappingId": ""
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "countryOfBirth": [
+      {
+        "rowId": "2",
+        "src": "personal/countryOfBirth",
+        "dest": "countryOfBirth",
+        "valueMappingId": "1"
+      }
+    ]
+  },
+  "companyID": "3rd_Party_Green_Planet_Acquisition",
+  "valueMaps": {
+    "1": {
+      "name": "countryMaps",
+      "mapping": {
+        "a": "A",
+        "b": "B",
+        "c": "C"
+      }
+    }
+  }
+}
