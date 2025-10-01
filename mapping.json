@@ -26,6 +26,13 @@
         "dest": "countryOfBirth",
         "valueMappingId": "1"
       }
+    ],
+    "Goal_22": [
+      {
+        "rowId": "3",
+        "src": "iid",
+        "dest": "category"
+      }
     ]
   },
   "companyID": "3rd_Party_Green_Planet_Acquisition",
