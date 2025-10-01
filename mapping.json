@@ -1,42 +1,12 @@
 {
   "fieldMap": {
-    "dateOfBirth": [
+    "PerPersonal": [
       {
         "rowId": "1",
-        "src": "personal/dateOfBirth",
-        "dest": "dateOfBirth",
-        "conditionalMapping": [
-          {
-            "referenceFieldId": "2",
-            "rules": [
-              {
-                "conditionalValue": "AUS",
-                "include": "true",
-                "valueMappingId": ""
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "countryOfBirth": [
-      {
-        "rowId": "2",
-        "src": "personal/countryOfBirth",
-        "dest": "countryOfBirth",
-        "valueMappingId": "1"
+        "src": "personal/preferredNames[0]/lastName",
+        "dest": "lastName"
       }
     ]
   },
-  "companyID": "3rd_Party_Green_Planet_Acquisition",
-  "valueMaps": {
-    "1": {
-      "name": "countryMaps",
-      "mapping": {
-        "a": "A",
-        "b": "B",
-        "c": "C"
-      }
-    }
-  }
+  "companyID": "3rd_Party_Green_Planet_Acquisition"
 }
