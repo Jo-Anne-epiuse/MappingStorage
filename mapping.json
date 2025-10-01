@@ -7,6 +7,13 @@
         "dest": "countryOfBirth",
         "valueMappingId": "1"
       }
+    ],
+    "PerPersonal": [
+      {
+        "rowId": "3",
+        "src": "relatedPersons[0]/legalNames[0]/lastName",
+        "dest": "lastName"
+      }
     ]
   },
   "companyID": "3rd_Party_Green_Planet_Acquisition",
