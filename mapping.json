@@ -7,11 +7,18 @@
         "dest": "emailAddress"
       }
     ],
-    "PerPersonal": [
+    "firstName": [
       {
         "rowId": "2",
         "src": "personal/preferredNames[0]/firstName",
         "dest": "firstName"
+      }
+    ],
+    "PerPersonal": [
+      {
+        "rowId": "3",
+        "src": "relatedPersons[0]/legalNames[0]/lastNameLocal",
+        "dest": "lastName"
       }
     ]
   },
