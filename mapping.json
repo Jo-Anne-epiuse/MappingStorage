@@ -7,11 +7,18 @@
         "dest": "emailAddress"
       }
     ],
-    "PerPhone": [
+    "phoneNumber": [
       {
         "rowId": "2",
         "src": "personalCommunication/phones[0]/phoneNumber",
         "dest": "phoneNumber"
+      }
+    ],
+    "PerPersonal": [
+      {
+        "rowId": "3",
+        "src": "personal/preferredNames[0]/firstName",
+        "dest": "firstName"
       }
     ]
   },
