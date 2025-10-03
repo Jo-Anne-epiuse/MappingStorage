@@ -1,17 +1,10 @@
 {
   "fieldMap": {
-    "emailAddress": [
+    "PerPersonal": [
       {
         "rowId": "1",
-        "src": "personalCommunication/emails[0]/emailAddress",
-        "dest": "emailAddress"
-      }
-    ],
-    "PerPhone": [
-      {
-        "rowId": "2",
-        "src": "personalCommunication/phones[0]/phoneNumber",
-        "dest": "phoneNumber"
+        "src": "personal/preferredNames[0]/firstName",
+        "dest": "firstName"
       }
     ]
   },
